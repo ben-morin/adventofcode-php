@@ -22,7 +22,7 @@ Peak memory: 0.3935 MiB
 ```
 Run with `docker`:
 ```
-[~/adventofcode-php/2015/day01]% docker run --rm -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp php:latest php 1.php 
+[~/adventofcode-php/2015/day01]% docker run --rm -it -v "$PWD":/usr/src -w /usr/src php:latest php 1.php 
 part 1: 280
 part 2: 1797
 Execution time: 0.0011 seconds
@@ -56,7 +56,7 @@ Execution time: 1.4617 seconds
 Peak memory: 0.4099 MiB
 ```
 ```
-[~/adventofcode-php/2015/day20]% docker run --rm -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp php:latest php -d opcache.enable_cli=1 -d opcache.jit=on -d opcache.jit_buffer_size=128M 20.php
+[~/adventofcode-php/2015/day20]% docker run --rm -it -v "$PWD":/usr/src -w /usr/src php:latest php -d opcache.enable_cli=1 -d opcache.jit=on -d opcache.jit_buffer_size=128M 20.php
 part 1: 831600
 part 2: 884520
 Execution time: 1.5146 seconds
