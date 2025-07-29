@@ -1,0 +1,9 @@
+*.input*
+*.example*
+*.py
+*.js
+/.idea
+/bin
+/inc
+/links
+/tmpl
