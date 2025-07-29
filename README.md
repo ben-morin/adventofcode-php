@@ -30,7 +30,7 @@ Peak memory: 0.3895 MiB
 ```
 Each solution should run and display part 1 and part 2 solutions as well as execution time and memory usage.
 
-Disable xdebug and enable`enter code here` opcache
+Disabling xdebug and enabling opcache
 -
 You can get faster performance when running some solutions if you disable the `xdebug` extension (if you have it installed).  Note that the official php docker image doesn't have debug enabled:
 ```
@@ -64,6 +64,7 @@ Peak memory: 0.3911 MiB
 ```
 links
 -
-Advent of Code: https://adventofcode.com 
+Advent of Code: https://adventofcode.com
+<br/>
 github: [ben-morin/adventofcode-php](https://github.com/ben-morin/adventofcode-php)
 
