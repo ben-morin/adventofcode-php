@@ -1,0 +1,12 @@
+.editorconfig
+*.local.*
+*.input*
+*.example*
+*[0-9][abc].php
+*.py
+*.js
+/.idea
+/bin
+/inc
+/links
+/tmpl
